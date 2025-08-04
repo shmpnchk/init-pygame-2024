@@ -93,6 +93,8 @@ Ava PyCharmis fail `flappy_bird.py`, vajuta ▶️ play nupule, ning näed, et s
     Lisaks `self.velocity`-le `GRAVITY` liitmise tuleb igal kaadril `self.y`-ile, ehk linnu y-koordinaadile, liita tema
     kiirus y-koordinaadi suhtes, ehk `self.velocity`.
 
+    [Siit](https://youtu.be/jMSewTuECrQ?t=229) saad vaadata vajadusel ka videot antud sammu kohta.
+
     <details>
     <summary>💡 Kuidas luua, liita ja lahutada muutujaid Python-is?</summary>
 
@@ -112,7 +114,6 @@ Ava PyCharmis fail `flappy_bird.py`, vajuta ▶️ play nupule, ning näed, et s
 
 &nbsp;
 
-    [Siit](https://youtu.be/jMSewTuECrQ?t=229) saad vaadata vajadusel ka videot antud sammu kohta.
 
 2. **Kui mängija vajutab tühikule, peaks linnuke ülespoole hüppama.**
 
