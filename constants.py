@@ -6,10 +6,12 @@ SCREEN_HEIGHT = 900             # Changing these two might break things. Approac
 # TODO: A gravity modifier needs to be defined.
 # Bigger number -> Higher gravity. 
 # A value of 1.2 should work well!
+GRAVITY = 1.2
 
 # TODO: You should define how high your bird will be able to jump, measured in pixels.
 # Bigger number -> Higher jumps.
 # According to our testing, a jump height of 15 works great!
+BIRD_JUMP = 15
 
 PIPE_GAP = 500                  # Bigger number -> Bigger gap (default = 500, no gap = 400)
 PIPE_VELOCITY = 5               # Bigger number -> Faster moving pipes (default = 5)

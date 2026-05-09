@@ -19,6 +19,7 @@ class Pipe:
 
     def update(self):
         """Update the pipe's position."""
+        self.x -= PIPE_VELOCITY
         pass
 
     def off_screen(self):

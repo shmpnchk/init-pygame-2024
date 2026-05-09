@@ -11,7 +11,7 @@ logo_img = pygame.image.load("images/logo.png")
 instructions_img = pygame.image.load("images/instructions.png")
 
 # Now's your turn! Load the image for the bird (bird_img).
-
+bird_img = pygame.image.load("images/bird.png")
 
 
 # Load sound effects
@@ -21,7 +21,8 @@ flap_sound = pygame.mixer.Sound("sounds/flap.wav")
 # But our game needs more sounds! Add sound effects for:
 # the bird colliding with the pipe (hurt_sound), and
 # a score increase (point_sound).
-
+hurt_sound = pygame.mixer.Sound("sounds/hurt.wav")
+point_sound = pygame.mixer.Sound("sounds/point.wav")
 # Scale images
 background_img = pygame.transform.scale(background_img, (SCREEN_WIDTH, SCREEN_HEIGHT))
 try:
